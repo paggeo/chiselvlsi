@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment1/src/test/scala/barreltester.scala:20:26: value dout is not a member of bar.io_bar[0m
+[0m[[0m[31merror[0m] [0m[0m        val out = dut.io.dout.peek().litValue[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment1/src/test/scala/barreltester.scala:26:26: value dout is not a member of bar.io_bar[0m
+[0m[[0m[31merror[0m] [0m[0m        val out = dut.io.dout.peek().litValue[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

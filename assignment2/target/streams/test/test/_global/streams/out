@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.bcdserialtester, org.scalatest.tools.Framework$$anon$1@6a1884d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbcdserialtester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBcdserialtester[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.rcatester, org.scalatest.tools.Framework$$anon$1@6a1884d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrcatester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrcatester[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.fulladdertester, org.scalatest.tools.Framework$$anon$1@6a1884d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfulladdertester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFullAdder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.bcdparalleltester, org.scalatest.tools.Framework$$anon$1@6a1884d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbcdparalleltester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBcdparalleltester[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.halfaddertester, org.scalatest.tools.Framework$$anon$1@6a1884d6, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mhalfaddertester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHalfAdder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 274 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.bcdserialtester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.rcatester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.fulladdertester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.bcdparalleltester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.halfaddertester[0m

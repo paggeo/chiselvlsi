@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.CustomDefaultRegisterEmission",
+    "useInitAsPreset":false,
+    "disableRandomization":true
+  },
+  {
+    "class":"firrtl.CustomDefaultMemoryEmission",
+    "initValue":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"output/"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Barrel|Barrel>io_so",
+    "sources":[
+      "~Barrel|Barrel>io_pl",
+      "~Barrel|Barrel>io_en",
+      "~Barrel|Barrel>io_dir"
+    ]
+  }
+]

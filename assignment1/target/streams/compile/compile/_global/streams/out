@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment1/src/main/scala/counter.scala:21:25: not found: value din[0m
+[0m[[0m[31merror[0m] [0m[0m        when (count =/= din){[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

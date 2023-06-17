@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dec.dectester, org.scalatest.tools.Framework$$anon$1@30402d3f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdectester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDec[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(counter.countertester, org.scalatest.tools.Framework$$anon$1@30402d3f, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mcountertester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCounter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 286 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	counter.countertester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dec.dectester[0m

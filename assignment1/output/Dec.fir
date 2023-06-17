@@ -1,0 +1,41 @@
+circuit Dec :
+  module Dec :
+    input clock : Clock
+    input reset : UInt<1>
+    output io : { flip input : UInt<1>[3], output : UInt<1>[8]}
+
+    io.output[0] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[1] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[2] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[3] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[4] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[5] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[6] <= UInt<1>("h0") @[dec.scala 17:23]
+    io.output[7] <= UInt<1>("h0") @[dec.scala 17:23]
+    node input_hi = cat(io.input[2], io.input[1]) @[dec.scala 18:30]
+    node input = cat(input_hi, io.input[0]) @[dec.scala 18:30]
+    node _T = eq(input, UInt<1>("h0")) @[dec.scala 21:17]
+    when _T : @[dec.scala 21:26]
+      io.output[0] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_1 = eq(input, UInt<1>("h1")) @[dec.scala 21:17]
+    when _T_1 : @[dec.scala 21:26]
+      io.output[1] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_2 = eq(input, UInt<2>("h2")) @[dec.scala 21:17]
+    when _T_2 : @[dec.scala 21:26]
+      io.output[2] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_3 = eq(input, UInt<2>("h3")) @[dec.scala 21:17]
+    when _T_3 : @[dec.scala 21:26]
+      io.output[3] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_4 = eq(input, UInt<3>("h4")) @[dec.scala 21:17]
+    when _T_4 : @[dec.scala 21:26]
+      io.output[4] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_5 = eq(input, UInt<3>("h5")) @[dec.scala 21:17]
+    when _T_5 : @[dec.scala 21:26]
+      io.output[5] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_6 = eq(input, UInt<3>("h6")) @[dec.scala 21:17]
+    when _T_6 : @[dec.scala 21:26]
+      io.output[6] <= UInt<1>("h1") @[dec.scala 21:40]
+    node _T_7 = eq(input, UInt<3>("h7")) @[dec.scala 21:17]
+    when _T_7 : @[dec.scala 21:26]
+      io.output[7] <= UInt<1>("h1") @[dec.scala 21:40]
+
