@@ -1,8 +1,8 @@
 # bloop and metals
-.bloop
-.bsp
-.metals
-project/metals.sbt
+*/.bloop
+*/.bsp
+*/.metals
+*/project/metals.sbt
 
 # vs code
 .vscode
@@ -11,9 +11,9 @@ project/metals.sbt
 .tasty
 
 # sbt
-project/project/
-project/target/
-target/
+*/project/project/
+*/project/target/
+*/target/
 
 # eclipse
 build/
