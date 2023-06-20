@@ -8,7 +8,7 @@ object Main extends App {
 
   val writer = new PrintWriter(new File("dut.v" ))
   writer.write(new (chisel3.stage.ChiselStage).emitVerilog(
-      new adder.bcdparallel,
+      new adder.testreg,
       // new adder.halfadder,
       Array("--emission-options=disableMemRandomization,disableRegisterRandomization","--target-dir","output/")
     )

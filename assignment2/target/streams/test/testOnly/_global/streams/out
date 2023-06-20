@@ -1,11 +1,11 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.bcaparalleltester, org.scalatest.tools.Framework$$anon$1@11da8756, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mbcaparalleltester:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mBcaparalleltester[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(adder.testregtester, org.scalatest.tools.Framework$$anon$1@b055e29, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtestregtester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtestreg[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 758 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 168 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	adder.bcaparalleltester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder.testregtester[0m

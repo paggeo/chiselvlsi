@@ -1,1 +1,35 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/george/chiselvlsi/assignment2/target/scala-2.13/-name-_2.13-0.1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/george/chiselvlsi/assignment2/target/scala-2.13/-name-_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/halfadder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/halfadder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/bcdserial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/bcdserial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/fulladder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/fulladder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/rca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/rca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/bcdparallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/bcdparallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_halfadder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_halfadder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_bcdserial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_bcdserial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_rca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_rca.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/testreg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/testreg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_fulladder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_fulladder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_testreg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_testreg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_bcdparallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_bcdparallel.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

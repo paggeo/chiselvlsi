@@ -1,5 +1,5 @@
 #Successful Tests
-#Sat Jun 17 19:44:30 EEST 2023
+#Wed Jun 21 00:06:35 EEST 2023
 adder.bcaparalleltester=1687020071618
 adder.bcaparalletester=1687019997692
 adder.bcaserialtester=1687019996863
@@ -8,3 +8,4 @@ adder.bcdserialtester=1687020269792
 adder.fulladdertester=1687020270050
 adder.halfaddertester=1687020270705
 adder.rcatester=1687020269939
+adder.testregtester=1687295195783
