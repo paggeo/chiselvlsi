@@ -1,29 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/multpipe.scala:35:19: value := is not a member of Unit[0m
-[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value :=`?[0m
-[0m[[0m[31merror[0m] [0m[0m  fa(0).io.Carry  := [0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/multpipe.scala:41:19: value := is not a member of Unit[0m
-[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value :=`?[0m
-[0m[[0m[31merror[0m] [0m[0m  fa(1).io.Carry  := [0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/multpipe.scala:47:19: value := is not a member of Unit[0m
-[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value :=`?[0m
-[0m[[0m[31merror[0m] [0m[0m  fa(2).io.Carry  := [0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/multpipe.scala:53:19: value := is not a member of Unit[0m
-[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value :=`?[0m
-[0m[[0m[31merror[0m] [0m[0m  fa(3).io.Carry  := [0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/testreg.scala:20:7: not found: value sarr[0m
-[0m[[0m[31merror[0m] [0m[0m      sarr(i)(0) := 0.U[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/testreg.scala:22:7: not found: value sarr[0m
-[0m[[0m[31merror[0m] [0m[0m      sarr(i)(0) := io.A[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/testreg.scala:25:7: not found: value sarr[0m
-[0m[[0m[31merror[0m] [0m[0m      sarr(i)(j) := sarr(i)(j-1)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/testreg.scala:25:21: not found: value sarr[0m
-[0m[[0m[31merror[0m] [0m[0m      sarr(i)(j) := sarr(i)(j-1)[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/george/chiselvlsi/assignment2/src/main/scala/multpipe.scala:25:16: overloaded method apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (range: chisel3.internal.firrtl.IntervalRange)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (width: chisel3.internal.firrtl.Width)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt)[0m
+[0m[[0m[31merror[0m] [0m[0m  val carry  = UInt(0.U(1.W))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

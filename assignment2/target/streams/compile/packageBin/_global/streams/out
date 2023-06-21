@@ -16,8 +16,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/bcdparallel.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	adder/io_halfadder.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_halfadder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/io_multpipe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_multpipe.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	adder/io_bcdserial.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_bcdserial.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	adder/multpipe.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/multpipe.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	adder/io_rca.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/george/chiselvlsi/assignment2/target/scala-2.13/classes/adder/io_rca.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	adder/testreg.class[0m
