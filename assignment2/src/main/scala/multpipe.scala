@@ -15,7 +15,12 @@ class multpipe extends Module{
   val fa = Array.fill(14)(Module(new fulladder))
 
 
-  val sarr = RegInit(VecInit(Seq.fill(4)(VecInit(Seq.fill(4)(0.U(4.W)))))) // 4x4x4
+  // val sarr = RegInit(VecInit(Seq.fill(4)(VecInit(Seq.fill(4)(0.U(4.W)))))) // 4x4x4
+  val s0 = RegInit(VecInit(Seq.fill(4)(0.U(4.W))))
+  val s1 = RegInit(VecInit(Seq.fill(4)(0.U(4.W))))
+  val s2 = RegInit(VecInit(Seq.fill(4)(0.U(4.W))))
+  val s3 = RegInit(VecInit(Seq.fill(4)(0.U(4.W))))
+
   val c1_var = RegInit(VecInit(Seq.fill(3)(0.U(1.W))))
   val c1_temp = (VecInit(Seq.fill(3)(0.U(1.W))))
   val c2_var = RegInit(VecInit(Seq.fill(3)(0.U(1.W))))
@@ -95,63 +100,91 @@ class multpipe extends Module{
   teliko1(0) := teliko2(0)
   io.P(0)    := teliko1(0)
 
-  for ( i <- 0 until 4){
-    when(io.B(i) === 0.U){
-      sarr(i)(0) := 0.U
-    }.otherwise{
-      sarr(i)(0) := io.A
-    }
-    for (j <- 1 until 4){
-      sarr(i)(j) := sarr(i)(j-1)
-    }
+  // for ( i <- 0 until 4){
+  //   when(io.B(i) === 0.U){
+  //     sarr(i)(0) := 0.U
+  //   }.otherwise{
+  //     sarr(i)(0) := io.A
+  //   }
+  //   for (j <- 1 until 4){
+  //     sarr(i)(j) := sarr(i)(j-1)
+  //   }
+  // }
+
+  when(io.B(0) === 0.U){
+    s0(0) := 0.U
+  }.otherwise{
+    s0(0) := io.A
+  }
+  when(io.B(1) === 0.U){
+    s1(0) := 0.U
+  }.otherwise{
+    s1(0) := io.A
+  }
+  when(io.B(2) === 0.U){
+    s2(0) := 0.U
+  }.otherwise{
+    s2(2) := io.A
+  }
+  when(io.B(3) === 0.U){
+    s3(0) := 0.U
+  }.otherwise{
+    s3(0) := io.A
   }
 
-  s1_temp(0) := sarr(0)(0)(0)
-  s2_temp(0) := sarr(2)(0)(0)
-  fa(0).io.A      := sarr(0)(0)(1)
-  fa(0).io.B      := sarr(1)(0)(0)
+  for (i <- 1 until 4){
+    s0(i) := s0(i-1)
+    s1(i) := s1(i-1)
+    s2(i) := s2(i-1)
+    s3(i) := s3(i-1)
+  }
+
+  s1_temp(0) := s0(0)
+  s2_temp(0) := s2(0)
+  fa(0).io.A      := s0(1)(1)
+  fa(0).io.B      := s1(0)(0)
   fa(0).io.C      := 0.U
   s1_temp(1) := fa(0).io.Sum
   c1_temp(0) := fa(0).io.Carry
   
-  fa(1).io.A      := sarr(0)(1)(2)
-  fa(1).io.B      := sarr(1)(1)(1)
+  fa(1).io.A      := s0(1)(2)
+  fa(1).io.B      := s1(1)(1)
   fa(1).io.C      := c1_var(0)
   s1_temp(2)      := fa(1).io.Sum
   c1_temp(1)      := fa(1).io.Carry
   
-  fa(2).io.A      := sarr(0)(2)(3)
-  fa(2).io.B      := sarr(1)(2)(2)
+  fa(2).io.A      := s0(2)(3)
+  fa(2).io.B      := s1(2)(2)
   fa(2).io.C      := c1_var(1)
   s1_temp(3)      := fa(2).io.Sum
   c1_temp(2)      := fa(2).io.Carry
 
   fa(3).io.A      := 0.U
-  fa(3).io.B      := sarr(1)(3)(3)
+  fa(3).io.B      := s1(3)(3)
   fa(3).io.C      := c1_var(2)
   s1_temp(4)      := fa(3).io.Sum 
   s1_temp(5)      := fa(3).io.Carry
 
-  fa(4).io.A      := sarr(2)(0)(1)
-  fa(4).io.B      := sarr(3)(0)(0)
+  fa(4).io.A      := s2(0)(1)
+  fa(4).io.B      := s3(0)(0)
   fa(4).io.C      := 0.U
   s2_temp(1)      := fa(4).io.Sum
   c2_temp(0)      := fa(4).io.Carry
   
-  fa(5).io.A      := sarr(2)(1)(2)
-  fa(5).io.B      := sarr(3)(1)(1)
+  fa(5).io.A      := s2(1)(2)
+  fa(5).io.B      := s3(1)(1)
   fa(5).io.C      := c2_var(0)
   s2_temp(2)      := fa(5).io.Sum
   c2_temp(1)      := fa(5).io.Carry
   
-  fa(6).io.A      := sarr(2)(2)(3)
-  fa(6).io.B      := sarr(3)(2)(2)
+  fa(6).io.A      := s2(2)(3)
+  fa(6).io.B      := s3(2)(2)
   fa(6).io.C      := c2_var(1)
   s2_temp(3)      := fa(6).io.Sum
   c2_temp(2)      := fa(6).io.Carry
 
   fa(7).io.A      := 0.U
-  fa(7).io.B      := sarr(3)(3)(3)
+  fa(7).io.B      := s3(3)(3)
   fa(7).io.C      := c1_var(2)
   s2_temp(4) := fa(7).io.Sum  
   s2_temp(5) := fa(7).io.Carry
